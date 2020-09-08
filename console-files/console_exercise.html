@@ -29,10 +29,21 @@
             </figure>
         </section>
         <script>
+            //Console.log writes to the browsers console.
+            h2Intro = document.querySelector('section > h2')
+
             console.log(document.querySelector('main > h1'))
             console.log(document.querySelector('figure > img'))
             console.log(document.querySelector('section > p'))
-            console.log(document.querySelector('section > h2'))
+            console.log(h2Intro)
+
+            firstName = 'Jane Doe'
+            console.log(firstName)
+
+
+            h2Intro.innerHTML = 'Introduction'
+
+
         </script>
     </main>
 </body>
