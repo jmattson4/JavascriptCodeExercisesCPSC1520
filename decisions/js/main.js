@@ -4,12 +4,12 @@ function featureLinkHandler(evt) {
     let featureImage = document.querySelector('img.feature');
     if (featureLink.innerHTML == 'View Barcelona') {
         featureImage.src = featureLink.href;
-        featureLink.innerHTML = 'Hide Barcelona'
+        featureLink.innerHTML = 'Hide Barcelona';
         featureImage.classList.remove('hidden');
     } else {
-        featureImage.src = ''
-        featureLink.innerHTML = 'View Barcelona'
-        featureImage.classList.add('hidden')
+        featureImage.src = '';
+        featureLink.innerHTML = 'View Barcelona';
+        featureImage.classList.add('hidden');
     }
 
     evt.preventDefault();
