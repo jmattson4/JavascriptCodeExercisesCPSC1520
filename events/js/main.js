@@ -1,4 +1,4 @@
-let featureLink = document.querySelector('a.feature.link');
+var featureLink = document.querySelector('a.feature.link');
 
 
 function featureLinkHandler(event) {
@@ -8,5 +8,7 @@ function featureLinkHandler(event) {
 
     event.preventDefault();
 }
+
+
 
 featureLink.addEventListener('click', featureLinkHandler);
